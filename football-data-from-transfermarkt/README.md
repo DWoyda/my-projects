@@ -2,24 +2,29 @@
 
 Analysis of football data from the public dataset [Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores/data).
 
-## 📥 Downloading the data
+## 📥 How to download the data
 
-The data **is not included in the repository**. Please download it manually:
+The data **is not included in the repository**. You need to download it manually. Follow these steps:
 
-1. Install the [Kaggle API].
-2. Configure your Kaggle API key ([setup instructions](https://github.com/Kaggle/kaggle-api#api-credentials)).
-3. Download and extract the dataset into the repository directory:
-    ```bash
-    kaggle datasets download -d davidcariboo/football-data-from-transfermarkt
-    unzip football-data-from-transfermarkt.zip -d football-data-from-transfermarkt
-    ```
-4. The folder `football-data-from-transfermarkt/` should be located in the repository directory, next to the analysis notebook.
+1️⃣ **Generate your Kaggle API Token**  
+Go to your [Kaggle Account Settings](https://www.kaggle.com/settings/account), click **Create New API Token**, and download the `kaggle.json` file.
 
-Alternatively, you can download a specific dataset version directly in your notebook using [kagglehub](https://github.com/Kaggle/kagglehub):
+2️⃣ **Configure your API token**  
+- Create a folder called `.kaggle` in your home directory:
+  - Windows: `C:\Users\YourUsername\.kaggle\`
+  - Linux/macOS: `/home/yourusername/.kaggle/`
+- Move the downloaded `kaggle.json` file into that folder.
+
+3️⃣ **Download the dataset directly in your notebook**  
+Use the following Python code to download the dataset (this will download the **latest version**, which as of **02.07.2025** is version **602**):
+
 ```python
 import kagglehub
 
-# Download a specific dataset version (e.g., version 602)
-path = kagglehub.dataset_download("davidcariboo/player-scores", dataset_version_number=602)
+# Download latest version
+path = kagglehub.dataset_download("davidcariboo/player-scores")
 
 print("Path to dataset files:", path)
+
+# if not 
+
