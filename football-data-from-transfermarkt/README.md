@@ -27,7 +27,7 @@ path = kagglehub.dataset_download("davidcariboo/player-scores")
 print("Path to dataset files:", path)
 
 ```
-# Or to download a **specific dataset version**
+## **Or to download a **specific dataset version**
 Replace `version-number` in the code below with the exact dataset version you want to download (e.g., 601 or 602):
 ```python
 
@@ -40,7 +40,6 @@ path = kagglehub.dataset_download("davidcariboo/player-scores/versions/version-n
 print("Path to dataset files:", path)
 
 ```
-# Dataset license
+## Dataset license
 The dataset is publicly available under the **CC0: Public Domain** license.
-
 **Dataset author**: davidcariboo on Kaggle
