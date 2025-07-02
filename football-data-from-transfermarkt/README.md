@@ -1,12 +1,12 @@
 # Football Transfermarkt Analysis
 
-Analysis of football data from the public dataset [Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/football-data-from-transfermarkt).
+Analysis of football data from the public dataset [Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores/data).
 
 ## 📥 Downloading the data
 
 The data **is not included in the repository**. Please download it manually:
 
-1. Install the [Kaggle API](https://github.com/Kaggle/kaggle-api).
+1. Install the [Kaggle API].
 2. Configure your Kaggle API key ([setup instructions](https://github.com/Kaggle/kaggle-api#api-credentials)).
 3. Download and extract the dataset into the repository directory:
     ```bash
