@@ -2,12 +2,12 @@
 
 Analysis of football data from the public dataset [Football Data from Transfermarkt](https://www.kaggle.com/datasets/davidcariboo/player-scores/data).
 
-## 📥 How to download the data
+## How to download the data
 
 The data **is not included in the repository**. You need to download it manually. Follow these steps:
 
 1️. **Generate your Kaggle API Token**  
-Go to your [Kaggle Account Settings](https://www.kaggle.com/settings/account), click **Create New API Token**, and download the `kaggle.json` file.
+Go to your **Kaggle Account Settings**, click **Create New API Token**, and download the `kaggle.json` file.
 
 2️. **Configure your API token**  
 - Create a folder called `.kaggle` in your home directory:
@@ -42,3 +42,5 @@ print("Path to dataset files:", path)
 ```
 # Dataset license
 The dataset is publicly available under the **CC0: Public Domain** license.
+
+**Dataset author**: davidcariboo on Kaggle
